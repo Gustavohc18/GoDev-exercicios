@@ -1,39 +1,140 @@
 * {
-    box-sizing: ;
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+   
     font-size: 20px;
     margin: auto;
-    width:60%;
-    border: 1px ;
-    box-sizing: border-box;
+    margin-top: 50px;
+ 
+
 }
-table{
+.main-tabela{
     margin: auto;
-    width: 60%;
-    padding: 10px;
-    border: 2px solid ;
-    box-sizing: border-box;
+     min-width: 20%;
+     max-width: 40%;
+     box-shadow: 0px 0px 1px; 
+
+    
 }
 
-.tabela{
-    margin: auto;
-    width: 60%;
-    padding: 10px;
-   
-    box-sizing: border-box;
-}
-
-
-.classi td {
-    list-style: circle;
+tbody tr{
+    box-shadow: 0.5px 0px 1px;
+    
 }
 
 ul li{
-    display: inline-block ; 
+    /* display: inline-block ;  */
     list-style-type: circle;    
 
   
+}
+
+.a{
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    margin: auto;
+    background-color: #F7F7F7;
+    width: 40px;
+    
+}
+
+.b{
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    margin: auto;
+    background-color: #F7F7F7;
+   
+
+}
+
+.time{
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    margin:auto;
+    text-align: left;
+}
+
+.p{
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    margin: auto;
+
+}
+
+td{
+    font-size: 14px;
+    color: #666666;
+    margin: auto;
+
+}
+.classA{
+    color:#003366;
+}
+.classB{
+    color: #1398BE;
+}
+.classC{
+    color: #DE9800;
+}
+.classD{
+    color: #CCCCCC;
+}
+.classE{
+    color: #C91B04;
+
+}
+
+
+
+.linha1{
+    box-shadow: 0.5px 1px 1px;
+}
+
+.lista{
+    display:flexbox;
+    font-size: 10px;
+    color: #8F8F8F;
+    text-align: left;
+    padding-left: 0;    
+}
+.lista li{
+    display: inline-block;
+}
+.lista li span {
+   
+    padding: 0 5px;
+    color: transparent;
+    border-radius: 4px;
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+span.classA{
+    background-color: #003366;
+}
+span.classB{
+    background-color: #1398BE;
+}
+span.classC{
+    background-color: #DE9800;
+}
+
+
+span.classE{
+    background-color: #C91B04;
+}
+.sigla{
+    font-size: 10px;
+    text-align: left;
+    color: #555555;
 }
